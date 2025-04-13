@@ -1,0 +1,11 @@
+// Sample RISC-V instructions in hex format
+00318133  // add x1, x2, x3
+40528233  // sub x4, x5, x6
+00850333  // and x7, x8, x9
+00B68433  // or x10, x11, x12
+00E74533  // xor x13, x14, x15
+01082633  // slt x16, x17, x18
+00052983  // lw x19, 0(x20)
+02B62023  // sw x21, 0(x22)
+01860C63  // beq x23, x24, 0
+00000C6F  // jal x25, 0 

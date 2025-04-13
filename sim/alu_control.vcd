@@ -1,0 +1,182 @@
+$date
+	Sun Apr 13 15:43:14 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alu_control_tb $end
+$var wire 4 ! alu_ctrl [3:0] $end
+$var reg 2 " alu_op [1:0] $end
+$var reg 3 # funct3 [2:0] $end
+$var reg 7 $ funct7 [6:0] $end
+$scope module alu_ctrl_inst $end
+$var wire 2 % alu_op [1:0] $end
+$var wire 3 & funct3 [2:0] $end
+$var wire 7 ' funct7 [6:0] $end
+$var parameter 4 ( ALU_ADD $end
+$var parameter 4 ) ALU_AND $end
+$var parameter 2 * ALU_OP_BRANCH $end
+$var parameter 2 + ALU_OP_I_TYPE $end
+$var parameter 2 , ALU_OP_OTHER $end
+$var parameter 2 - ALU_OP_R_TYPE $end
+$var parameter 4 . ALU_OR $end
+$var parameter 4 / ALU_SLL $end
+$var parameter 4 0 ALU_SLT $end
+$var parameter 4 1 ALU_SRA $end
+$var parameter 4 2 ALU_SRL $end
+$var parameter 4 3 ALU_SUB $end
+$var parameter 4 4 ALU_XOR $end
+$var reg 4 5 alu_ctrl [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 4
+b1 3
+b111 2
+b1000 1
+b101 0
+b110 /
+b11 .
+b10 -
+b0 ,
+b11 +
+b1 *
+b10 )
+b0 (
+$end
+#0
+$dumpvars
+b0 5
+b0 '
+b0 &
+b10 %
+b0 $
+b0 #
+b10 "
+b0 !
+$end
+#10
+b1 !
+b1 5
+b100000 $
+b100000 '
+#20
+b10 !
+b10 5
+b0 $
+b0 '
+b111 #
+b111 &
+#30
+b11 !
+b11 5
+b110 #
+b110 &
+#40
+b100 !
+b100 5
+b100 #
+b100 &
+#50
+b101 !
+b101 5
+b10 #
+b10 &
+#60
+b110 !
+b110 5
+b1 #
+b1 &
+#70
+b111 !
+b111 5
+b101 #
+b101 &
+#80
+b1000 !
+b1000 5
+b100000 $
+b100000 '
+#90
+b0 !
+b0 5
+b0 $
+b0 '
+b0 #
+b0 &
+b11 "
+b11 %
+#100
+b10 !
+b10 5
+b111 #
+b111 &
+#110
+b11 !
+b11 5
+b110 #
+b110 &
+#120
+b100 !
+b100 5
+b100 #
+b100 &
+#130
+b101 !
+b101 5
+b10 #
+b10 &
+#140
+b110 !
+b110 5
+b1 #
+b1 &
+#150
+b111 !
+b111 5
+b101 #
+b101 &
+#160
+b1000 !
+b1000 5
+b100000 $
+b100000 '
+#170
+b1 !
+b1 5
+b0 $
+b0 '
+b0 #
+b0 &
+b1 "
+b1 %
+#180
+b1 #
+b1 &
+#190
+b101 !
+b101 5
+b100 #
+b100 &
+#200
+b101 #
+b101 &
+#210
+b110 #
+b110 &
+#220
+b111 #
+b111 &
+#230
+b0 !
+b0 5
+b0 #
+b0 &
+b0 "
+b0 %
+#240

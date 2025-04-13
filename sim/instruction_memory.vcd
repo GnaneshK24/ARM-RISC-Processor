@@ -1,0 +1,101 @@
+$date
+	Sun Apr 13 15:36:29 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module instruction_memory_tb $end
+$var wire 32 ! instruction [31:0] $end
+$var reg 32 " address [31:0] $end
+$var reg 1 # clk $end
+$scope module imem_inst $end
+$var wire 32 $ address [31:0] $end
+$var wire 1 # clk $end
+$var reg 32 % instruction [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx %
+b0 $
+0#
+b0 "
+bx !
+$end
+#5
+b1100011000000100110011 !
+b1100011000000100110011 %
+1#
+#10
+0#
+#15
+1#
+#20
+0#
+b100 "
+b100 $
+#25
+b1000000010100101000001000110011 !
+b1000000010100101000001000110011 %
+1#
+#30
+0#
+b1000 "
+b1000 $
+#35
+b100001010000001100110011 !
+b100001010000001100110011 %
+1#
+#40
+0#
+b1100 "
+b1100 $
+#45
+b101101101000010000110011 !
+b101101101000010000110011 %
+1#
+#50
+0#
+b1 "
+b1 $
+#55
+b0 !
+b0 %
+1#
+#60
+0#
+b1000000000000 "
+b1000000000000 $
+#65
+1#
+#70
+0#
+b1000000000100 "
+b1000000000100 $
+#75
+1#
+#80
+0#
+b0 "
+b0 $
+#85
+b1100011000000100110011 !
+b1100011000000100110011 %
+1#
+#90
+0#
+b100 "
+b100 $
+#95
+b1000000010100101000001000110011 !
+b1000000010100101000001000110011 %
+1#
+#100
+0#
