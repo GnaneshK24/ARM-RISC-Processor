@@ -1,0 +1,22 @@
+# Build artifacts
+*.o
+*.out
+*.vvp
+
+# Simulation outputs
+sim/*.vcd
+sim/processor_tb
+sim/*.txt
+
+# Waveform viewer files
+*.gtkw
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db 
